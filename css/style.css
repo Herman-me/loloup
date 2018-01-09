@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+body{
+  background:#014073;
+  background-size: cover;
+  font-family: IRANSansWeb;
+}
+
+@font-face {
+    font-family:'IRANSansWeb';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/IRANSansWeb.ttf');/*اکسپلورر 9 به بعد*/
+    src:local('IRANSansWeb'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('IRANSansWeb'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/IRANSansWeb.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/IRANSansWeb.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/IRANSansWeb.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+  }
+.contain{
+  background-color:white;
+  border-radius: 10px;
+  padding:30px;
+
+}
+.box{
+    text-align: center;
+    background-color:#FFCB05;
+    border-radius: 6px;
+    padding:15px;
+    color:#014073;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.box ul li{
+  text-align: right;
+}
+.box h4{
+  margin-bottom: -10px;
+}
+hr{
+  color:#FFCB05;
+  opacity: .3;
+}
+.leftmenu{
+  padding:20px;
+  padding-top:0;
+}
+.header img:last-child{
+  width: 120px;
+  float: left;
+  margin-bottom:-200px;
+  padding-top: 125px;
+}
+.in-post{
+  border:1px solid lightgray;
+  border-radius: 10px;
+  padding:10px
+  color:#014073;
+}
+.menu{
+  background-color:#FFCB05;
+  margin-top:-30px;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 20px;
+}
+nav{
+  margin-bottom: 0 !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border: none !important;
+}
+.col-aps{
+  float: none !important;
+  display: block;
+  margin:auto;
+}
+.in-post h3{
+  text-align: center;
+  color:#014073;
+
+}
+.bio{
+  text-align: center;
+  font-size: 14px;
+}
+.bio span:last-child{
+  font-size: 12px !important;
+}
+.in-post img{
+  width: 800px;
+  max-width: 100%;
+}
+.in-post .body{
+  margin:10px;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: justify;
+}
+.box a{
+  color:white;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.box ul li {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 3px;
+  background: #014073;
+  border-radius: 5px;
+  transition: .5s;
+  padding:2px;
+}
+.box ul li:hover{
+  margin-bottom: 10px;
+}
+label{
+  text-align: right !important;
+}
+input[type='text'] , input[type='password'] , input[type='number']{
+  padding:6px;
+  border-radius: 9px;
+  border: 1px solid white;
+  width: 100%;
+}
+input[type='submit']{
+  width: 80%;
+  padding:10px;
+  border-radius: 10px;
+  border:1px solid #014073;
+  background-color:#014073;
+  color:white;
+}
+.in-post{
+  margin-bottom: 10px;
+}
