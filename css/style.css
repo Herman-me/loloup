@@ -22,7 +22,7 @@ body{
     font-weight:normal;
   }
   .contain{
-    margin-top:200px;
+    margin-top:100px;
     background-color:#FFCB05;
     padding:20px;
     border-radius: 10px
@@ -74,16 +74,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .input-file-container {
   position: relative;
   width: 225px;
@@ -131,10 +121,6 @@ body{
 }
 
 
-
-
-
-
 /* Useless styles, just for demo styles */
 
 h1, h2 {
@@ -167,4 +153,19 @@ h2 + P {
 .copy a {
   text-decoration: none;
   color: #1ABC9C;
+}
+
+button{
+  background-color: #014073;
+  padding: 10px;
+  color:white;
+  border:1px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition:.5s;
+  width: 30%;
+}
+button:hover{
+  background-color:#1a5586;
+  transform: scale(1.2);
 }

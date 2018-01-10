@@ -24,6 +24,20 @@
 </head>
 <body>
 	<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+               <a class="navbar-brand" href="#">لولو آپ</a>
+            </div>
+              <ul class="nav navbar-nav col-aps">
+                <li class="active"><a href="#">خانه</a></li>
+                <li><a href="#">آموزش های برنامه نویسی</a></li>
+                <li><a href="#">آموزش های مهم</a></li>
+                <li><a href="#">تماس با ما</a></li>
+              </ul>
+        </div>
+    </nav>
+
       <div class="row">
         <div class="col-sm-12 contain">
           <div class="row">
@@ -43,6 +57,7 @@
                     <p>در این قسمت شما باید یک فایل برای آپلود انتخاب کنید.</p>
                     <input class="input-file" id="my-file" type="file">
                     <label tabindex="0" for="my-file" class="input-file-trigger">یک فایل انتخاب کنید ..</label>
+                    
                   </div>
                   <p class="file-return"></p>
                 </form>
@@ -75,7 +90,8 @@
                   <h1>در مورد ما</h1>
                   <p>سلام ما بر آن شدیم تا آپلود سنتری را راه اندازی کنیم برای خدمت رسانی به شما و همه ی دوستان و لطفا در توسعه ی آن به ما کمک کنید . و از شما میخواهیم برای مشکلات پیش آمده ما را همراهی کنید</p>
                   <p>سلام ما بر آن شدیم تا آپلود سنتری را راه اندازی کنیم برای خدمت رسانی به شما و همه ی دوستان و لطفا در توسعه ی آن به ما کمک کنید . و از شما میخواهیم برای مشکلات پیش آمده ما را همراهی کنید</p>
-
+                    <a href=""><button>عضویت</button></a>
+                    <a href=""><button>وارد شوید</button></a>
                 </div>
               </div>
             </div>
