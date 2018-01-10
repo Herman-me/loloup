@@ -23,7 +23,7 @@ body{
   }
   .contain{
     margin-top:200px;
-    background-color:#C8C9CD;
+    background-color:#FFCB05;
     padding:20px;
     border-radius: 10px
   }
@@ -48,3 +48,123 @@ body{
   .box h1{
     margin-bottom: 20px;
   }
+  .custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select some files';
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.input-file-container {
+  position: relative;
+  width: 225px;
+}
+.js .input-file-trigger {
+  display: block;
+  padding: 14px 45px;
+  background: #39D2B4;
+  color: #fff;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+.js .input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+  background: #34495E;
+  color: #39D2B4;
+}
+
+.file-return {
+  margin: 0;
+}
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+.js .file-return {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+.js .file-return:not(:empty):before {
+  content: "Selected file: ";
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+
+
+
+/* Useless styles, just for demo styles */
+
+h1, h2 {
+  margin-bottom: 5px;
+  font-weight: normal;
+  text-align: center;
+  color:#aaa;
+}
+h2 {
+  margin: 5px 0 2em;
+  color: #1ABC9C;
+}
+form {
+  width: 225px;
+  margin: 0 auto;
+  text-align:center;
+}
+h2 + P {
+  text-align: center;
+}
+.txtcenter {
+  margin-top: 4em;
+  font-size: .9em;
+  text-align: center;
+  color: #aaa;
+}
+.copy {
+  margin-top: 2em;
+}
+.copy a {
+  text-decoration: none;
+  color: #1ABC9C;
+}

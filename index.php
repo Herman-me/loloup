@@ -30,13 +30,43 @@
             <div class="col-sm-6 ">
               <div class="box">
                 <h1>آپلود سنتر لولو آپ</h1>
-                <form class="form" action="index.html" method="post">
+                <!-- <form class="form" action="index.html" method="post">
                   <label for="">فایل های خود را وارد کنید</label>
-                  <input type="file" name="" value="">
+                  <input type="file" class="custom-file-input">
                   <input type="file" name="" value="">
                   <input type="file" name="" value="">
                   <input type="submit" name="submit" value="آپلود کنید ..">
+                </form> -->
+
+                <form action="#">
+                  <div class="input-file-container">
+                    <p>در این قسمت شما باید یک فایل برای آپلود انتخاب کنید.</p>
+                    <input class="input-file" id="my-file" type="file">
+                    <label tabindex="0" for="my-file" class="input-file-trigger">یک فایل انتخاب کنید ..</label>
+                  </div>
+                  <p class="file-return"></p>
                 </form>
+                <script type="text/javascript">
+                    document.querySelector("html").classList.add('js');
+                    var fileInput  = document.querySelector( ".input-file" ),
+                      button     = document.querySelector( ".input-file-trigger" ),
+                      the_return = document.querySelector(".file-return");
+
+                    button.addEventListener( "keydown", function( event ) {
+                      if ( event.keyCode == 13 || event.keyCode == 32 ) {
+                          fileInput.focus();
+                      }
+                    });
+                    button.addEventListener( "click", function( event ) {
+                     fileInput.focus();
+                     return false;
+                    });
+                    fileInput.addEventListener( "change", function( event ) {
+                      the_return.innerHTML = this.value;
+                    });
+                </script>
+
+
               </div>
             </div>
             <div class="col-sm-6 ">
