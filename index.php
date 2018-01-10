@@ -57,7 +57,7 @@
                     <p>در این قسمت شما باید یک فایل برای آپلود انتخاب کنید.</p>
                     <input class="input-file" id="my-file" type="file">
                     <label tabindex="0" for="my-file" class="input-file-trigger">یک فایل انتخاب کنید ..</label>
-                    
+                    <input type="submit" value="اپلود" style="width:100%;">
                   </div>
                   <p class="file-return"></p>
                 </form>
